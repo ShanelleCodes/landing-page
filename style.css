@@ -1,6 +1,7 @@
 html{
     box-sizing: border-box;
     font-family: roboto, Arial;
+    margin: 0;
 }
 *, *::before, *::after{
     box-sizing: inherit;
@@ -44,6 +45,35 @@ a:hover{
 
 
 /* ABOUT SECTION */
+.about{
+    background-color: rgb(85, 134, 140);
+    margin: 0;
+    padding: 20px;
+    display: flex;
+}
+
+.about-box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 20px;
+    margin: 0;
+}
+
+#about-signup{
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+
+#about-signup:hover{
+    width: 100px;
+    background-color: rgb(246, 175, 101);
+    color: white;
+    border-radius: 4px;
+}
+
 .hero-img {
 height: auto;
 width: 400px;
