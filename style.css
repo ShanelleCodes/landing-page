@@ -39,7 +39,7 @@ a{
 
 a:hover{
     text-decoration: none;
-    color: rgb(246, 175, 101);
+    color: rgb(145, 192, 198);
 }
 
 
@@ -74,7 +74,7 @@ flex-shrink: initial;
 }
 
 #about-signup:hover{
-    background-color: rgb(246, 175, 101);
+    background-color: rgb(145, 192, 198);
     color: black;
 }
 
@@ -168,3 +168,47 @@ h2{
     font-style: italic;
     font-weight: 400;
  }
+
+ /* SIGN UP SECTION */
+
+ .signup{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+ }
+
+ .card{
+     background-color: rgb(85, 134, 140);
+     padding: 30px 100px;
+     border-radius: 10px;
+     color: white;
+     max-width: 1000px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 40px;
+ }
+
+
+ .title{
+    font-size: 24px;
+    font-weight: bold;
+ }
+
+.c-text{
+    font-size: 18px;
+}
+
+#card-signup{
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    padding: 4px;
+    font-weight: bold;
+}
+
+#card-signup:hover{
+    background-color: rgb(145, 192, 198);
+    color: black;
+}
