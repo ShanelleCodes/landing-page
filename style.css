@@ -212,3 +212,16 @@ h2{
     background-color: rgb(145, 192, 198);
     color: black;
 }
+
+/* FOOTER SECCTION */
+
+.footer{
+    background-color: black;
+    padding: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+
+}
